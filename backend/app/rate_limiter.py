@@ -4,8 +4,8 @@ import threading
 from typing import Dict, List, Tuple
 
 
-# using sliding window algorithm for limiting requests and adding timestamps
-class SlidingWindow:
+# using fixed window algorithm for limiting requests and adding timestamps
+class FixedWindow:
     
     def __init__(self, max_requests: int = 5, window_time: int= 60):
         
@@ -42,4 +42,4 @@ class SlidingWindow:
             return forwarded.split(",")[0].strip()
         return request.client.host
     
-rate_limiter = SlidingWindow(max_requests=5, window_time=60)
+rate_limiter = FixedWindow(max_requests=5, window_time=60)
