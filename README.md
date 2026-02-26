@@ -82,14 +82,20 @@ This is implemented in the rate_limiter.py file in the app directory. The core f
    git clone https://github.com/Priyansh-A/urlshortener.git
     cd urlshortener
 ```
-2. **Build the images and the container**
+
+2. **Loading the data**
+   
+   - For the analytics chart to function instantly, change data.json file date records to match the recent week.    
+    
+3. **Build the images and the container**
  ```bash
    docker-compose up --build
    ```
-3. **Application urls**
+4. **Application urls**
    - Frontend: http://localhost:5173
    - Backend: http://localhost:8000
    - api endpoints (Swagger UI) : http://localhost:8000/docs
+
 
 ## All available api endpoints
 (POST)
