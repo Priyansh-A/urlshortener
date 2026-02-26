@@ -1,24 +1,37 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .database import  engine
 from contextlib import asynccontextmanager
-from app.middlewares.limiter import rate_limit_middleware
+from pathlib import Path
+
+from .database import engine
+from .middlewares.limiter import rate_limit_middleware
 from .routes import api
-from app import models
+from . import models
+from .loader import load_json_data
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # start connectiom
+    # Create database tables
     async with engine.begin() as conn:
         await conn.run_sync(models.SQLModel.metadata.create_all)
     print("Database tables created")
+    
+    # Load initial data if JSON file exists
+    data_file = Path("data.json")
+    if data_file.exists():
+        await load_json_data(str(data_file), force=False)
+    else:
+        print("data.json not found, skipping data load")
     yield
-    # shutdown
+    
+    # Cleanup on shutdown
     await engine.dispose()
     print("Database connections closed")
 
-
-app = FastAPI(lifespan=lifespan)
+app = FastAPI(
+    title="URLShortener",
+    lifespan=lifespan
+)
 
 # CORS middleware
 app.add_middleware(
@@ -27,16 +40,15 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-    expose_headers=["*"],      
+    expose_headers=["*"],
 )
 
-# referencing middleware
+# Custom middleware
 app.middleware("http")(rate_limit_middleware)
 
-# referencing routes
+# Routes
 app.include_router(api.router)
 
-# Base URL
 @app.get("/")
 def root():
-    return {"message": "Welcome"}
+    return {"message": "Welcome to URL Shortener API"}

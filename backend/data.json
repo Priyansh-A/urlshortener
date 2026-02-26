@@ -1,0 +1,97 @@
+{
+  "shorteners": [
+    {
+      "url": "https://www.youtube.com/watch?v=iGVExzKXA1I&list=RDiGVExzKXA1I&start_radio=1",
+      "alias": "aB3dEf",
+      "created_at": "2026-02-10T10:00:00"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WQos0X8MB3c&list=RDWQos0X8MB3c&start_radio=1&t=1435s",
+      "alias": "xY7zK9",
+      "created_at": "2026-02-11T11:30:00"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3kMbTzomh94&list=RD3kMbTzomh94&start_radio=1",
+      "alias": "pQ2rSt",
+      "created_at": "2026-02-12T09:15:00"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QhW3P7_jvWY&list=RDQhW3P7_jvWY&start_radio=1",
+      "alias": "mN4jUv",
+      "created_at": "2026-02-13T14:20:00"
+    }
+  ],
+  "click_events": [
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-25T08:12:33" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-25T10:45:21" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-25T13:28:47" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-24T15:53:12" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-24T09:34:56" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-23T17:22:38" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-23T11:47:19" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-22T14:55:27" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-22T08:38:52" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-21T12:19:33" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-21T16:47:18" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-20T10:23:45" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-20T14:45:12" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-19T09:56:33" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-19T13:23:18" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-18T15:45:27" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-18T17:12:44" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-17T19:34:51" },
+    { "alias_used": "aB3dEf", "clicked_at": "2026-02-17T09:56:28" },
+
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-25T09:12:33" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-25T11:45:21" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-24T14:28:47" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-24T16:53:12" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-23T10:34:56" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-23T18:22:38" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-22T12:47:19" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-22T15:55:27" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-21T09:38:52" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-21T13:19:33" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-20T17:47:18" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-20T11:23:45" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-19T15:45:12" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-19T10:56:33" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-18T14:23:18" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-18T16:45:27" },
+    { "alias_used": "xY7zK9", "clicked_at": "2026-02-17T18:12:44" },
+
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-25T07:23:45" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-25T12:45:12" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-24T09:56:33" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-24T15:23:18" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-23T17:45:27" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-23T10:12:44" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-22T14:34:51" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-22T08:56:28" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-21T11:12:37" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-21T13:34:52" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-20T15:56:13" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-20T18:18:46" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-19T09:40:29" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-19T12:23:55" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-18T14:45:32" },
+    { "alias_used": "pQ2rSt", "clicked_at": "2026-02-18T16:07:48" },
+
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-25T08:34:21" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-25T13:56:48" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-24T11:18:33" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-24T16:40:19" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-23T09:22:54" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-23T14:45:21" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-22T10:07:48" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-22T15:29:14" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-21T08:52:37" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-21T12:14:53" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-20T14:36:19" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-20T16:58:44" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-19T09:21:08" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-19T11:43:35" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-18T14:05:52" },
+    { "alias_used": "mN4jUv", "clicked_at": "2026-02-18T16:28:19" }
+  ]
+}
