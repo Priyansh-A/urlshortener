@@ -27,7 +27,16 @@
 
 - Docker Support - Easy deployment with docker-compose
 
-**Rate Limiting Logic**
+## Rate Limiting
+
+With the scale of a program, the user traffic also increases. When userbases increase to millions and millions of requests start flooding your program, various system design concepts come into play. In case of unusual request traffic, rate limiting algorithms are implemented. It is mostly used in case of potential bots or external attacks.
+
+The algorithm used in this project is Fixed Window. It is the concept where limited resources can be accessed in a limited amount of time. When the time interval is complete, the resources can be accessed again.
+It may not be very functional in small projects but in case of million userbase programs, limiting requests to hundreds, thousands per minute can prevent unwanted traffic.
+
+In this project, the fixed window algorithm is used to limit user requests making short urls to 5 requests per minute per user.
+This is implemented in the rate_limiter.py file in the app directory. The core functionality here is that it tracks the user IP address and stores timestamps of their requests. Once 5 requests are made under the 60 second window, the system rejects any further requests and returns time remaining until any new requests can be made. Once the time passes, new requests are allowed again.
+
 
 
 ## Tech Stack
@@ -94,6 +103,7 @@
 
 ## Screenshots of thus api endpoints using postman
 ![alt text](<assets/screenshots/Screenshot 2026-02-26 175829.png>)
+![alt text](<assets/screenshots/Screenshot 2026-02-26 205843.png>)
 ![alt text](<assets/screenshots/Screenshot 2026-02-26 170914.png>)
 ![alt text](<assets/screenshots/Screenshot 2026-02-26 175853.png>)
 ![alt text](<assets/screenshots/Screenshot 2026-02-26 171001.png>)
@@ -110,4 +120,7 @@
 
 
 
-**Thank you for stopping by**
+<p align="center">
+  Thank you for stopping by 
+</p>
+
